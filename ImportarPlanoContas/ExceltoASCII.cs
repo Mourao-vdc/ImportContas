@@ -152,7 +152,8 @@ namespace ImportarPlanoContas
             try
             {
                 //Cria a string de conexão:
-                string _sPath = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + toolStripTextBox1.Text + ";Extended Properties=\"Excel 8.0;HDR=Yes;\";";
+                //string _sPath = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + toolStripTextBox1.Text + ";Extended Properties=\"Excel 8.0;HDR=Yes;\";IMEX=1;HDR=No";
+                string _sPath = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + toolStripTextBox1.Text + @";Extended Properties=""Excel 8.0;IMEX=1;HDR=No""";
 
                 //Cria a conexão:
                 using (OleDbConnection _con = new OleDbConnection(_sPath))
@@ -165,6 +166,28 @@ namespace ImportarPlanoContas
                         {
                             //Preenche a dt:
                             _dataAdapter.Fill(_dt);
+
+                            //foreach(DataColumn _col in _dt.Columns)
+                            //{
+                            //    _col.DataType = typeof(String);
+                            //}
+
+                            //DataTable dtCloned = _dt.Clone();
+                            ////dtCloned.Columns[0].DataType = typeof(Int32);
+
+                            //int _iContagemColunas = 0;
+
+                            //foreach (DataColumn _col in _dt.Columns)
+                            //{
+                            //    dtCloned.Columns[_iContagemColunas].DataType = typeof(String);
+
+                            //    _iContagemColunas++;
+                            //}
+
+                            //foreach (DataRow row in _dt.Rows)
+                            //{
+                            //    dtCloned.ImportRow(row);
+                            //}
 
                             //Associa a dt à GDV:
                             dataGridView1.DataSource = _dt;
@@ -284,6 +307,11 @@ namespace ImportarPlanoContas
             this.Hide();
             form.ShowDialog();
             this.Close();
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

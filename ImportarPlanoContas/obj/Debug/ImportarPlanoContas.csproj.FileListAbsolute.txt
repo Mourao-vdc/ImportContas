@@ -43,3 +43,15 @@ C:\Users\estagio\Documents\ImportarPlanoContas\ImportarPlanoContas\obj\Debug\Imp
 C:\Users\estagio\Documents\ImportarPlanoContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.pdb
 C:\Users\estagio\Documents\ImportarPlanoContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.ASCIItoExcel.resources
 C:\Users\estagio\Documents\ImportarPlanoContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.ExceltoASCII.resources
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\bin\Debug\ImportarPlanoContas.exe.config
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\bin\Debug\ImportarPlanoContas.exe
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\bin\Debug\ImportarPlanoContas.pdb
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.csproj.AssemblyReference.cache
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.csproj.SuggestedBindingRedirects.cache
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.ASCIItoExcel.resources
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.ExceltoASCII.resources
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.Properties.Resources.resources
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.csproj.GenerateResource.cache
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.csproj.CoreCompileInputs.cache
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.exe
+C:\Users\diogosantiago\Documents\GitHub\PapAndre\ImportContas\ImportarPlanoContas\obj\Debug\ImportarPlanoContas.pdb
